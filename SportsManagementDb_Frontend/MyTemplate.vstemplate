@@ -1,0 +1,53 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>sportsmanagementdb</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>sportsmanagementdb</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="sportsmanagementdb.csproj" File="sportsmanagementdb.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Audit.cs">Audit.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AuditDAO.cs">AuditDAO.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Event.cs">Event.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EventsDAO.cs">EventsDAO.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.cs">Form1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.Designer.cs">Form1.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Form1.resx">Form1.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Has.cs">Has.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="HasDAO.cs">HasDAO.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Match.cs">Match.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MatchesDAO.cs">MatchesDAO.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PlayerEvent.cs">PlayerEvent.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PlayerEventDAO.cs">PlayerEventDAO.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="players.cs">players.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="playersDAO.cs">playersDAO.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PlaysIn1.cs">PlaysIn1.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PlaysIn1DAO.cs">PlaysIn1DAO.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PlaysIn2.cs">PlaysIn2.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PlaysIn2DAO.cs">PlaysIn2DAO.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Podium.cs">Podium.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="PodiumDAO.cs">PodiumDAO.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="RepBodiesDAO.cs">RepBodiesDAO.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="RepBody.cs">RepBody.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Sport.cs">Sport.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SportsDAO.cs">SportsDAO.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Team.cs">Team.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TeamDAO.cs">TeamDAO.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TeamEvent.cs">TeamEvent.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="TeamEventDAO.cs">TeamEventDAO.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Venue.cs">Venue.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="VenuesDAO.cs">VenuesDAO.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
